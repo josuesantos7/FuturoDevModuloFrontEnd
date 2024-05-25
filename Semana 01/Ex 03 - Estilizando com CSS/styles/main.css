@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: aquamarine;
+}
+
+p {
+    color: rgb(101, 101, 185);
+    font-size: 20px;
+}

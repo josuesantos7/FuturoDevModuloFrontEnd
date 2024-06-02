@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url("assets/images/mar.jpg");
+    height: 100vh;
+    background-position: 0%;
+    background-size: cover;
+}
+
+.titulo {
+    background-color: aqua;
+    font-family: "Dancing Script", cursive;
+    font-size: 22px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul li {
+    font-size: 18px;
+}
+
+
+#f_text {
+    margin: 10px 0px 0px 47px ;
+    border: solid 1px;
+}
+
+.btn-contato {
+    margin: 10px 0px 0px 47px;
+    margin-left: 45px;
+    border-left: 30px;
+}
+
+.form1 {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(37, 182, 126);
+    width: 370px;
+    height: 185px;
+}
+
+#contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 10px 47px ;
+}

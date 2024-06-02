@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url("assets/images/mar.jpg");
+    height: 100vh;
+    background-position: 0%;
+    background-size: cover;
+}
+
+.titulo {
+    background-color: aqua;
+    font-family: "Dancing Script", cursive;
+    font-size: 22px;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul li {
+    font-size: 18px;
+}

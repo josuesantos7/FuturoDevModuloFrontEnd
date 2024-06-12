@@ -34,7 +34,7 @@
     border-bottom: solid 1.5px;
     width: 100vw;
     padding-top: 50px;
-    padding-bottom: 7px;
+    padding-bottom: 18px;
 }
 
 .nomeUsuario {
@@ -46,10 +46,38 @@
     margin-right: 30px;
 }
 
-/* .menu {
+.menu ul li {
+    display: inline;
+}
 
-} */
+.menu ul {
+    padding-bottom: 3px;
+    border-bottom: solid 1.5px;
+    margin-bottom: 3px;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
 
 .sections {
-    background-color: blue;
+    flex: 1;
+    display: inline-flex;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.sobre {
+    background-color: rgb(195, 168, 215);
+    width: 140vh;
+    height: 50vh;
+}
+
+.secaoFoto {
+    background-color: aquamarine;
+    width: 62.5vh;
+    height: 50vh;
 }

@@ -16,8 +16,8 @@
             <h1>Meus interesses</h1>
         </header>
         <div class="form">
-            <input id="dados_interesse" type="text" placeholder="Digite algum interesse ou hobbie">
-            <button class="button-add" onclick="createList()">Adicionar</button>
+            <input id="inputTask" type="text" placeholder="Digite algum interesse ou hobbie">
+            <button class="button-add" onclick="AddInterest()">Adicionar</button>
         </div>
 
         <div class="list">
@@ -25,8 +25,8 @@
                 <strong>Lista:</strong>
                 <button class="button-clear">Limpar lista</button>
             </div>
-            <ul>
-               <!-- Inclua os interesses aqui -->
+            <ul id="interesseList">
+
             </ul>
         </div>
     </main>
@@ -36,7 +36,7 @@
             <span>Noticia patrocinada</span>
         </div>
         <p class="title-news-today">
-            <!-- Inclua aqui a noticia em destaque -->
+
         </p>
     </div>
 

@@ -2,14 +2,14 @@
 
 function AddInterest() {
     let input = document.getElementById('inputTask');
-    let task = input.value;
-    if (!task) return;
+    let interest = input.value;
+    if (!interest) return;
 
 
     let storageInteresses = getLocalStorage();
-    storageInteresses.push(task);
+    storageInteresses.push(interest);
     localStorage.setItem('meus-interesses', JSON.stringify(storageInteresses));
-    showTasks();
+    showInterests();
     input.value = '';
 }
 
@@ -18,14 +18,14 @@ function getLocalStorage() {
     return myLocalStorage ? JSON.parse(myLocalStorage) : [];
 }
 
-function showTasks (){
-            let tasks = getLocalStorage();
+function showInterests (){
+            let interests = getLocalStorage();
             let lista = document.getElementById('interesseList');
             console.log(lista)
             lista.innerHTML = '';
-            tasks.forEach(function(task, index) {
+            interests.forEach(function(interest, index) {
                 let item = document.createElement('li');
-                item.textContent = task;
+                item.textContent = interest;
 
 
                 // buttons
@@ -41,7 +41,7 @@ function showTasks (){
                 btnAlter.textContent = 'Alterar';
                 btnAlter.className = 'btn';
                 btnAlter.onclick = function() {
-                    alterInterest(index, task);
+                    alterInterest(index, interest);
                 };
                 item.appendChild(btnAlter);
 
@@ -50,21 +50,21 @@ function showTasks (){
 }
 
 function deleteInterest(index) {
-    let tasks = getLocalStorage()
-    tasks.splice(index, 1);
-    localStorage.setItem('meus-interesses', JSON.stringify(tasks));
-    showTasks();
+    let interests = getLocalStorage()
+    interests.splice(index, 1);
+    localStorage.setItem('meus-interesses', JSON.stringify(interests));
+    showInterests();
     console.log("Excluir")
 }
 
 function alterInterest(index, currentDescription) {
     let newDescription = prompt("Alterar interesse", currentDescription)
     if (newDescription) {
-        let task = getLocalStorage();
-        task[index] = newDescription
-        localStorage.setItem('meus-interesses', JSON.stringify(task));
-        showTasks()
+        let interest = getLocalStorage();
+        interest[index] = newDescription
+        localStorage.setItem('meus-interesses', JSON.stringify(interest));
+        showInterests()
     }
 }
 
-document.addEventListener('DOMContentLoaded', showTasks);
+document.addEventListener('DOMContentLoaded', showInterests);

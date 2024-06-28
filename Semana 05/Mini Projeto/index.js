@@ -67,4 +67,6 @@ function alterInterest(index, currentDescription) {
     }
 }
 
+setInterval(showInterests, 1000)
+
 document.addEventListener('DOMContentLoaded', showInterests);

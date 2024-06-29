@@ -75,6 +75,25 @@ function clearList() {
             listaUl.innerHTML = '';
 }
 
+async function GetNews() {
+    try {
+        const url = "https://servicodados.ibge.gov.br/api/v3/noticias/?tipo=release"
+        const response = await fetch(url)
+        const data = await response.json()
+
+        const firstNews = data.items[0]
+        const title = firstNews.titulo
+    
+        let news = document.querySelector(".title-news-today");
+            news.innerHTML = title
+
+    } catch (error) {
+        console.log('Erro ao obter os dados da API IBGE', error)
+    }
+}
+
+GetNews()
+
 setInterval(showInterests, 1000)
 
 document.addEventListener('DOMContentLoaded', showInterests);

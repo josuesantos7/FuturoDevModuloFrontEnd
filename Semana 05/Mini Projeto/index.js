@@ -67,6 +67,14 @@ function alterInterest(index, currentDescription) {
     }
 }
 
+function clearList() {
+    console.log("Lista Limpa")
+    getLocalStorage()
+    localStorage.removeItem(["meus-interesses"])
+    let listaUl = document.getElementById('interesseList');
+            listaUl.innerHTML = '';
+}
+
 setInterval(showInterests, 1000)
 
 document.addEventListener('DOMContentLoaded', showInterests);

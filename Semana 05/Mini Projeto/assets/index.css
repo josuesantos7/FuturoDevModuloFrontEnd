@@ -128,3 +128,17 @@ header h1 {
     font-size: 14px;
     color: #44546A;
 }
+
+.btnE {
+    background-color: #e63333;
+    margin-left: 35px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.btnA {
+    background-color: #2f7600;
+    margin-left: 5px;
+    color: #fff;
+    border-radius: 3px;
+}

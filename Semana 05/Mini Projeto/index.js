@@ -31,7 +31,7 @@ function showInterests (){
                 // buttons
                 let btnDelete = document.createElement('button');
                 btnDelete.textContent = 'Excluir';
-                btnDelete.className = 'btn';
+                btnDelete.className = 'btnE';
                 btnDelete.onclick = function() {
                     deleteInterest(index);
                 };
@@ -39,7 +39,7 @@ function showInterests (){
 
                 let btnAlter = document.createElement('button');
                 btnAlter.textContent = 'Alterar';
-                btnAlter.className = 'btn';
+                btnAlter.className = 'btnA';
                 btnAlter.onclick = function() {
                     alterInterest(index, interest);
                 };

@@ -13,6 +13,12 @@ function AddInterest() {
     input.value = '';
 }
 
+function checkEnter(event) {
+    if (event.key === "Enter") {
+        AddInterest();
+    }
+}
+
 function getLocalStorage() {
     let myLocalStorage = localStorage.getItem('meus-interesses')
     return myLocalStorage ? JSON.parse(myLocalStorage) : [];

@@ -24,6 +24,8 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
  `Semana 05/mini Projeto`
 
 ### Execute o projeto com o Liver Server.
-`Click no Index.html e execute com o live server através do botão "Go Live" localizado na parte inferior direita do VS Code.`
+`Clique no Index.html e execute com o live server através do botão "Go Live" localizado na parte inferior direita do VS Code.`
  
  
+### Melhorias futuras
+Como melhoria desta aplicação, será implementado uma correção para quando o interesse adicionado pelo usuário for com muitas palavras o sistema não desformate causando um visual poluente e despadronizado. Outra melhoria seria em relação a notícia patrocinada, que atualmente apresenta somente a primeira notícia do array encontrado pela API do IBGE, assim automatizando a exibição das informações.

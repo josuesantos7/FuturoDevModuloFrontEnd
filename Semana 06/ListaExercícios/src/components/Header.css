@@ -7,12 +7,12 @@
 .header {
     background-color: #020202;
     color: white;
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     flex-wrap: wrap;
     direction: row;
     align-items: center;
-    padding: 20px 20px;
+    padding: 20px;
     justify-content: space-between;
 }
 
@@ -20,6 +20,7 @@
     background-color: blue;
     display: flex;
     align-items: center;
+    width: 100vw;
 }
 
 

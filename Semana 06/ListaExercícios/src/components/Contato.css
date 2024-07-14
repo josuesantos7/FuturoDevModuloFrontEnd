@@ -1,0 +1,21 @@
+
+.titulo-contato {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #111111;
+}
+
+.titulo-container {
+    color: #b2b2b2;
+    padding: 0px 20px;
+}
+
+.h1-titulo{
+    color: #ffffff;
+    font-size: 48px;
+}
+
+.cor-ponto {
+    color: #ffbb00;
+    font-size: 3rem;
+}

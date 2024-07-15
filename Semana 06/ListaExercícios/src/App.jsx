@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import "./components/Footer.css"
 import Contato from './components/Contato'
+import BannerContato from './components/Banner-contato'
 // import './App.css'
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
   return (
     <>
       <Header></Header>
+
+      <BannerContato></BannerContato>
 
       <Contato></Contato>
 

@@ -42,7 +42,7 @@ function Contato (){
                     <br></br>
                     <div>
                         <label htmlFor="mensagem">Mensagem</label>
-                        <textarea id="mensagem" name="mensagem"   placeholder="O que você precisa?"></textarea>
+                        <textarea id="mensagem" name="mensagem" value={mensagem}   placeholder="O que você precisa?" onChange={(e) => setMensagem(e.target.value)}></textarea>
                     </div>
                     <br></br>
 

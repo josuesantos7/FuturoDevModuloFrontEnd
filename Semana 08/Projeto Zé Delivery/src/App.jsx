@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Login from './pages/Login/Login'
 import HeaderLogin from './pages/Login/Header-login'
+import CategoriaProdutos from './components/Categoria-produtos'
 
 // import Footer from './components/Footer'
 // import "./components/Footer.css"
@@ -17,6 +18,7 @@ function App() {
       {/* <Hero></Hero> */}
       <HeaderLogin></HeaderLogin>
       <Login></Login>
+      {/* <CategoriaProdutos></CategoriaProdutos> */}
     </>
   )
 }

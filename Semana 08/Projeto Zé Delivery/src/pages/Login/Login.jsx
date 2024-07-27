@@ -1,4 +1,5 @@
-import './Header-login.css'
+import './Login.css'
+
 
 function Login() {
 
@@ -14,6 +15,9 @@ function Login() {
                 <input type="text" className='inputEmailLogin'  placeholder="Email" />
                     <input type="password" className='inputPasswordLogin' placeholder="Senha" />
                     <button type="submit" className='buttonEntrar' onClick={handleSubmit}>Entrar</button>
+                    <div className='help'>
+                        <span>Precisa de ajuda? Entre no Me Ajuda, Zé!</span>
+                    </div>
             </div>
         </div>
     )

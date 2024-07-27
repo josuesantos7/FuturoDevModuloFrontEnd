@@ -1,0 +1,39 @@
+
+/* styles.css */
+.app {
+    text-align: center;
+}
+  
+.categorias-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.categoria {
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 1px;
+    width: calc(95% / 7 - 20px);
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgb(243, 246, 243);
+    height: 76px;
+
+}
+  
+.categoria img {
+    max-width: 100%;
+    /* width: 50%; */
+    /* height: auto; */
+    height: 101%;
+}
+  
+p {
+    color: rgb(85, 85, 85);
+    font-size: 12px;
+    line-height: 2;
+    white-space: nowrap;
+    font-weight: 400;
+}

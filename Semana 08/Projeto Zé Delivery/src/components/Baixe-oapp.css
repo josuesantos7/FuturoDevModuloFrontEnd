@@ -1,0 +1,13 @@
+.CustomImage {
+    height: 450px;
+    width: 1920px;
+    left: 0;
+    bottom: 0;
+    /* position: absolute; */
+}
+
+.exemplo {
+    position: absolute;
+    left: 50%;
+
+}

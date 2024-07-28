@@ -5,22 +5,16 @@ import Login from './pages/Login/Login'
 import HeaderLogin from './pages/Login/Header-login'
 import CategoriaProdutos from './components/Categoria-produtos'
 
-// import Footer from './components/Footer'
-// import "./components/Footer.css"
-// import BannerContato from './components/Banner-contato'
-// import './App.css'
-
 function App() {
 
   return (
     <>
-      {/* <Header></Header> */}
-      {/* <Hero></Hero> */}
-      <HeaderLogin></HeaderLogin>
-      <Login></Login>
-      {/* <CategoriaProdutos></CategoriaProdutos> */}
+    {/* <Header></Header> */}
+    {/* <Hero></Hero> */}
+    <HeaderLogin></HeaderLogin>
+    <Login></Login>
+    {/* <CategoriaProdutos></CategoriaProdutos> */}
     </>
-  )
-}
-
+    )
+  }
 export default App

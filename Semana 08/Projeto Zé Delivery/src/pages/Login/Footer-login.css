@@ -1,0 +1,22 @@
+.fixarRodape {
+    border-top: 1px solid #999;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #999;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+}
+

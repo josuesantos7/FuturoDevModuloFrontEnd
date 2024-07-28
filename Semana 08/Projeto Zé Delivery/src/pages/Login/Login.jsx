@@ -1,3 +1,5 @@
+import Footer from './Footer-login'
+import HeaderLogin from './Header-login'
 import './Login.css'
 
 
@@ -10,6 +12,7 @@ function Login() {
     return (
 
         <div className='geral'>
+            <HeaderLogin/>
 
             <div className='container2'>
                 <input type="text" className='inputEmailLogin'  placeholder="Email" />
@@ -19,6 +22,7 @@ function Login() {
                         <span>Precisa de ajuda? Entre no Me Ajuda, Zé!</span>
                     </div>
             </div>
+            <Footer/>
         </div>
     )
 }

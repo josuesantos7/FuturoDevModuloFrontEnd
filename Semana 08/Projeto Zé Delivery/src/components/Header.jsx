@@ -4,7 +4,7 @@ import "./Header.css"
 function Header() {
 
     return (
-        // <header>
+
         <div className="tema">
             <div className='nav-bar'>
                 <figure className="figureLogo">
@@ -14,7 +14,6 @@ function Header() {
                 <button className="button-sigin">Entrar</button>
             </div>
         </div>
-        // </header>
     )
 }
 

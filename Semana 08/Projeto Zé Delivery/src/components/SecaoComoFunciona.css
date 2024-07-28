@@ -1,0 +1,38 @@
+.secao-Cfunciona {
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 48px;
+    margin-top: 48px;
+    text-align: center;
+}
+
+.cardsFuncionamento {
+    display: flex;
+    text-align: center;
+    padding: 0px 16px;
+    margin-bottom: 48px;
+
+}
+
+img {
+    width: 112px;
+    height: 112px;
+}
+
+.titulo {
+    color: black;
+}
+
+h3 {
+    width: 288px;
+    color: #666;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: 400;
+}
+
+

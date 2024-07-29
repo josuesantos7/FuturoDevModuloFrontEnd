@@ -3,6 +3,7 @@ import Hero from '../../components/Hero'
 import CategoriaProdutos from '../../components/Categoria-produtos'
 import ComoFunciona from '../../components/SecaoComoFunciona'
 import BaixeOApp from '../../components/Baixe-oapp'
+import Footer from '../../components/Footer'
 
 function Home(){
     return <>
@@ -11,6 +12,8 @@ function Home(){
         <CategoriaProdutos/>
         <ComoFunciona/>
         <BaixeOApp/>
+        <Footer/>
+
         
     </>
 }

@@ -3,8 +3,7 @@ import './Footer.css'
 function Footer(){
     return (
         <>
-            <div>
-                <div className="footer-home">
+                < div className="footer-home">
                     <figure>
                         <img src="https://www.ze.delivery/_next/image?url=https%3A%2F%2Fcourier-images-web.imgix.net%2Fstatic%2Fimg%2Flogo-white-text.png%3Fauto%3Dcompress%2Cformat%26fit%3Dmax%26w%3D176%26h%3D56%26dpr%3D2%26fm%3Dpng&w=256&q=75" alt="Logo Ze Delivery"></img>
                     </figure>
@@ -36,8 +35,46 @@ function Footer(){
                             <a href='https://www.tiktok.com/@zedelivery'><img  className='icones-footer-home' src='public\tiktok.ico'></img></a>
                         </div>
                     </div>
+
+                
+
+                        {/* <div className='teste'>
+                            <a href='#'>Termos de uso</a>
+
+                            <a href='#'>Política de privacidade</a>
+                        </div>
+
+                        <div>
+
+                            <span>ZE SOLUCOES TECNOLOGICAS DE COMERCIO DE BEBIDAS LTDA. - CNPJ: 37.657.197/0001-46
+                            Rua Fradique Coutinho, 1632 - CEP: 05.416-002
+                            Pinheiros - São Paulo/SP</span>
+                        </div>
+
+                        <div>
+                            <span>BEBA COM MODERAÇÃO</span>
+                        </div> */}
                 </div>
-            </div>
+
+                <div className='teste'>
+                    <div className='termo-privacidade'>
+                        <a href='#'>Termos de uso</a>
+
+                        <a href='#'>Política de privacidade</a>
+                    </div>
+                                
+                
+                    <div id='endereco'>
+                        <span>ZE SOLUCOES TECNOLOGICAS DE COMERCIO DE BEBIDAS LTDA. - CNPJ: 37.657.197/0001-46
+                        Rua Fradique Coutinho, 1632 - CEP: 05.416-002
+                        Pinheiros - São Paulo/SP</span>
+                    </div>
+
+                    <div id='moderacao'>
+                        <span>BEBA COM MODERAÇÃO</span>
+                    </div>
+
+                </div>
         </>
     )
 }

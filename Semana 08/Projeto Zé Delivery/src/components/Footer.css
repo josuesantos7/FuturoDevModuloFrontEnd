@@ -18,3 +18,37 @@
 .cards-footer a {
     color: #FFFFFF;
 }
+
+.teste {
+    display: flex;
+    padding: 12px 32px;
+    background-color: #444;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.termo-privacidade {
+    display: flex;
+}
+
+.teste a {
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+
+.teste span {
+    text-align: center;
+}
+
+#endereco {
+    text-align: center;
+    width: 512px;
+}
+
+#moderacao {
+    margin-left: 32px;
+    width: 190px;
+}
+
